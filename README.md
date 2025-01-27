@@ -93,3 +93,11 @@
 - Réduire les temps de chargement des pages.
 - Optimiser la qualité du contenu et du code.
 - Obtenir des backlinks pertinents et de qualité.
+
+## Moteur de recherche et annuaire 
+- **Annuaire** : c'est un gros ouvrage classé par ordre alaphétique
+- **Moteur de recherche** : Mise à jour tous les jours par millions 
+
+## Les autres outils de recherche :
+Exemple : les pages jaunes : être visé par un public local 
+

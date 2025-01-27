@@ -4,3 +4,5 @@
 - Obtenir des backlinks pertinents et de qualité.
 
 MOBILE FIRST
+
+## Comportement des internautes 
