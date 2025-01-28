@@ -101,3 +101,107 @@
 ## Les autres outils de recherche :
 Exemple : les pages jaunes : être visé par un public local 
 
+Bing fournit des services à d'autres marchés 
+
+## Comportement des internautes
+cf strategie 
+
+## SGE 
+Les IA ont besoin des données personnelles, certaines fonctionnalités ne sont pas disponibles en Europe (Apple Intelligence)
+Google SGE est en production, mais pas en Europe (USA, Inde et Japon) 
+==> Forte baisse de l'utilisation naturelle des moteurs de recherche. 
+
+## Partie 5 : Environnement du site web 
+
+Savoir quel public on va viser 
+Les objectifs du site Web :
+- Pourquoi ?
+=> les mots clefs du SEO
+- Comment ?
+=> Le/les contenu(s) du site web 
+- Contre qui ? => Les concurrents 
+
+- Indit technique : etudier la structure du site (code source qui affiche le site web); sécurité...
+- Audit sémantique : sens des mots, pertinence ; en SEO => compréhension par les internautes (pain au chocolat ≠ chocolatine)
+- Audit de netlinking : cohérence entre les liens 
+
+## Concurrence : 
+Regarder dans les moteurs de recherche => se faire une liste 
+Tableau concurentiel 
+
+## Type de site web (typologie) :
+- Site vitrine : mettre en avant les produits => créer des contacts 
+- Site e-commerce : vendre des produits => créer des produits 
+- Webap : logiciel que l'on utilise sur le net 
+- Site institutionnel : vitrine web d'une entreprise ou d'une organisation 
+
+Un site web est un outil de communication 
+
+## Partie 6 : mots-clés
+Ils constituent la source du référencement. C'est ce qui va être récuperer dans l'index de Google. 
+
+Trouver => Braimstorming, Générateur de mots clés, BDD
+=>
+Tester => moteurs et annuaires, volumes de requêtes 
+=>
+Arbitrer => entre intérêt et faisabilité (expliquer comment on a fait ces choix)
+
+## Chapitre 8 : Critères in page
+
+Balise title et balises meta 
+
+Composition d'une page Web : 
+Il y a trois endroits dans lesquels nous allons placer nos mots clés pour optimiser le référencement de la page web 
+
+1. En-tête de la page (HEAD) : cette partie est invisible pour l'utilisateur, mais elle est lue par les moteurs de recherche et par le navigateur. Elle contient des informations sur la page, comme le titre, la description, les mots clefs ect. 
+2. Dans le corps de la page (BODY): c'est la partie visible de la page, c'est là que vous allez placer votre contenu. 
+3. Dans les adresses (URL) : les mots-clés dans l'URL sont très importants pour le référencement. 
+
+# Structure de base d'une page HTML
+
+
+Voici un exemple de code HTML :
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Web de Base</title>
+</head>
+<body>
+    <!-- Contenu principal de la page -->
+</body>
+</html>
+```
+
+
+## La balise Title 
+ Le contenu de la balise tittle s'affiche dans les SERPs et sur l'onglet de la page concernée. Le titre doit à la fois contenir des mots clés et informer l'utilisateur sur le contenu de la page. 
+
+ Conseils de redaction : 
+ - clarté et precision 
+ - limitez vous à une dizaine de mots en réalité c'est moins
+ - Trouvez une expression qui inclut le plus de mots clés possible 
+ - personnaliser le titre de chaque page 
+ - essayez de placer les mots clés en debut de phrase (pour la balise titre le nombre de caractères reconnus peut varier d'un moteur de recherche à un autre)
+ - Evitez les mots clés redondants, ou trop generiques 
+
+ ## La balise meta 
+  La balise meta est une balise HTLM qui permet de définir des métadonnées qui ne sont pas affichés à l'écran. Il y a encore trop peu de pages qui ne contiennent pas de balises meta. L'evolution recente des moteurs de recherche a rendu ces balises moins importantes pour le referencement, mais elles restent utiles pour d'autres raisons. 
+Faites les figurer sur toutes vos pages et adaptez les en focntion du contenu de chaque page. 
+
+### La balise meta description 
+La balise meta description est un résumé de la page qui s'affiche dans les SERPs. Elle doit être claire, concise et informative. Elle doit contenir des mots clés et inciter l'utilisateur à cliquer sur le lien du site. 
+
+## La balise robots 
+Elle indique aux robots des moteurs de recherche, comment ils doivent se comporter avec la page : l'indexer ou non, suivre des liens ou non etc. 
+
+```html 
+<meta name="robots" content="noindex, nofollow">
+```
+Vous pouvez spécifier d'autres instructions: 
+- nosnipet : empeche l'affichage d'un extrait de la page dans les SERPs
+- noarchive : empeche l'archivage de la page 
+- unvailable_after: indique la date à partir de laquelle la page ne doit plus etre indexée. 
