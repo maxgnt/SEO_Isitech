@@ -231,3 +231,11 @@ Champ lexical : tous les mots en rapport avec le thème du site
 Les titres et sous-titres : balise h. De h1 à h6
 ==> Niveau hiérachique des informations. Leur ordre est essentiel. 
 Les balises strong, italique ect sont aussi importantes car elles mettent en avant les termes importants qui doivent ressortir et mis en avant. 
+
+## Redcation de contenus 
+L'utilisation de l'IA est recommandée pour s'inspirer et trouver des mots clés/paragraphes. =< revision de contenus, ortographe...
+Le contenu web doit être original, pertinent, utile et unique. 
+
+## Images 
+Média incontournable des sites web. Le nom des fichiers (inclut dans l'url) est indexé. Il faut utiliser des tirets.
+Format : png, gif et jpeg. 
