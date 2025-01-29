@@ -205,3 +205,29 @@ Vous pouvez spécifier d'autres instructions:
 - nosnipet : empeche l'affichage d'un extrait de la page dans les SERPs
 - noarchive : empeche l'archivage de la page 
 - unvailable_after: indique la date à partir de laquelle la page ne doit plus etre indexée. 
+
+Le monde du référencement évolue souvent, l'usage des balises meta reste important, mais un impact moins important dans les calculs des algo de recherche.
+Le contenu quant à lui reste primordial.
+Web sémantique : la structure et le bon usage du code HTML et la bonne formulation du contenu qui va avoir un impact sur le positionnement. => futur dans les résultats de recherche. 
+Ajouter du contenu et alimenter en contenu permet de favoriser un bon positionnement.
+
+Le contenu dans le body du code html a aussi son importance (videos, texte, jeux...)
+
+Indice de densité : fréquence avec laquelle on retrouve un mot clé dans le contenu d'un site. Il faut pas trop répéter un mot clé => spam d'exi
+Blacklisté / sandboxé : être pénalisé, les robots Google voit que l'on "triche". Il ne faut pas spammer les mots clés. 
+Il est très difficile d'optimisé une page avec plus de 3 mots clés. Un seul mot clé peut suffir par page. On ne lit jamais un site en entier, on récupère l'information que l'on veut. L'expérience doit être positive.
+On peut décliner le mot clé dans toute sa forme grammaticale. 
+Privilégier des expressions plutôt que les mots clés.
+La façon dont on va composer les adresses des liens.
+La précision sur les liens est un élément essentiel et important. 
+Toutes les pages doivent être connectées entre elles => cartographié les pages.
+
+Fil d'Ariane : hierarchie de toutes les pages. Les liens doivent être cliquable. 
+Exemple : Accueil > Produits > Produits de beauté > Soins du visage > Crème hydratante
+
+Champ lexical : tous les mots en rapport avec le thème du site
+
+## Contenu 
+Les titres et sous-titres : balise h. De h1 à h6
+==> Niveau hiérachique des informations. Leur ordre est essentiel. 
+Les balises strong, italique ect sont aussi importantes car elles mettent en avant les termes importants qui doivent ressortir et mis en avant. 
