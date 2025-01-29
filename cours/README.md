@@ -239,3 +239,78 @@ Le contenu web doit être original, pertinent, utile et unique.
 ## Images 
 Média incontournable des sites web. Le nom des fichiers (inclut dans l'url) est indexé. Il faut utiliser des tirets.
 Format : png, gif et jpeg. 
+Légender les images, "alt"
+Qualité des images : poids, taille, résolution.  
+Eviter les images stock que l'on retrouve de partout. 
+Tailles : Petit (150x150), moyen (à partir de 500x500), grand. 
+
+## Vidéos 
+Youtube : recherche de vidéos, 2ème moteur de recherche le plus utilisé. 
+Google a la capcité de lire dans les vidéos. 
+Une url par vidéo, eviter le flash, l'AJAX. 
+Bonne qualité vidéo 
+Nom de la vidéo : mots clés, tirets, mots clés en début de titre.
+Déposer les vidéos chez youtube si l'on veut bien être référencé.
+
+## Son 
+Le son doit inclure les mots clés.
+
+==> Toutes ces règles servent aux robots de moteur de recherche à comprendre le contenu de la page.
+
+Etre référencé dans l'onglet "News, Actualités" : il faut simplement une page d'actualité ou de news. Beaucoup de trafic et un contenu régulier et récent. 
+Google propose un outil pour les actualités.
+
+## Les documents
+Ils peuvent être optimisés aussi ; il ne faut pas alourdir le document. 
+PDF : facile à la compression sans perdre de qualité. 
+Ne jamais indexé le contenu du site créé par les internautes (commentaires, forum, avis...)
+
+## Critères Off Page 
+Tout ce qui gravite autour du site web.
+Indice de popularité : nombre de liens qui pointent vers le site.
+Netlinking : 
+Combien de liens pointent vers le site ? 
+
+Google Analytics : analyser le trafic du site web. But : générer du trafic et le convertir en client.
+Lien externe : backlink => inciter le visiteur à cliquer sur le lien. Il doit être mit en valeur. 
+
+Placemet de liens : plus ils sont placés haut, mieux c'est. 
+Linkfarms : lieu ou les liens sont placés. 
+
+On a des sites web qui vendent des liens. 
+
+## Indice de confiance 
+Il joue un rôle sur le référencement. 
+Cirtères : taille du site, ancienneté, le trafic du site et le niveau de verascité des informations inscrites dans les pages 
+S'inscrire dans les annuaires, texte des liens (externe et interne)
+
+## Domaine, URL et plus 
+Le nom de domaine est important. Un ou plusieurs mots clés dans le nom de domaine.
+.fr mieux positionné en France 
+Trust rank : indice de confiance en fonction de l'ancienneté. 
+
+Certificat SSL : ça garantit la sécurité du site web et confidentialité et l'intégrité des données entre un serveur et un navigateur.
+Il garantit la confidentialité et l'intégrité des données échangées entre le serveur et le navigateur, en les chiffrant.
+Ils tiennent compte de la sécurité des sites web. Pas de https = pénalité.
+
+Confidentialité : caractère secret des données
+Chiffrer : indescriptible par l'être humain 
+Intégrité : garantir que le message n'a pas été modifié pendant le transfert 
+Nom de fichier : mots clés, tirets, mots clés en début de titre. 
+URL : Uniform Ressource Locator.
+
+Sitemap : structure du site web, en format xml. Il permet de donner des informations sur les pages du site web. Il est important pour les robots de moteur de recherche.
+La manière la plus sure d'indiquer à Google le plan du site (la liste des pages du site)
+Il contient la liste des pages à indexer, les dates de dernière modification, la fréquence de mise à jour, l'importance des pages par rapport aux autres pages du site. Facilite l'indexation du site. 
+
+Comment le créer et l'envoyer à Google ?
+Il faut aller sur la Google Search Console 
+
+Déchifrer HTML, vidéos, formes sur les images, contenu du son... => Prédire le contenu du code 
+Ne pas mettre les balises script dans le head, car le code est lu de haut en bas. Les balises meta et title doivent être en haut pour être lues en première. 
+
+Tester le code et les liens avant de mettre en prod 
+W3C : vérifier la conformité du code HTML.
+
+## robots.txt
+Fichier texte qui indique aux robots des moteurs de recherche les pages à ne pas indexer. Il faut le mettre à la racine du site web. Il indique quelle page à lire, quelle page à ne pas lire. S'il est absent, tous les liens seront indexés. 
