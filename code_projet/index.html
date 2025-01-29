@@ -6,48 +6,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Maison Verte - Paysagiste écologique à Lyon. Créations de jardins durables, entretien écologique et conseil en aménagement paysager. Certifié Bio.">
-    <title> Maison Verte - Paysagiste Ecologique à Lyon - Jardins durables sur mesure et Biodiversité</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Maison Verte - Paysagiste Ecologique à Lyon - Jardins durables sur mesure et Biodiversité</title>
 </head>
 
 <body>
     <header>
         <div class="header-content">
-            <div class="header-title">Maison Verte</div>
-            <navbar>
-                <ul>
-                    <li>
-                        <a href="#">Services</a>
-                        <a href="#">Réalisations</a>
-                        <a href="#">Contact</a>
+            <a href="#" class="logo">Maison Verte</a>
+            <button class="menu-btn">Menu</button>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link">Accueil</a></li>
+                    <li class="menu-parent">
+                        <a href="#" class="nav-link">Services</a>
+                        <ul class="submenu">
+                            <li><a href="#creation">Création</a></li>
+                            <li><a href="#entretien">Entretien</a></li>
+                            <li><a href="#conseil">Conseil</a></li>
+                        </ul>
                     </li>
+                    <li><a href="#realisations" class="nav-link">Réalisations</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
-            </navbar>
+            </nav>
         </div>
     </header>
 
     <main>
 
+        <section class="hero-slider">
+            <div class="slide fade">
+                <img src="./images_page/home_paysagiste.jpg" alt="Jardinier en action">
+                <div class="slide-text">Maison Verte, votre expert paysagiste en aménagement durable et écologique
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="./images_page/maison_home_paysagiste.jpg" alt="Vue aérienne d'un jardin paysager">
+                <div class="slide-text-2">Un aménagement paysager durable pour un futur plus vert</div>
+            </div>
+
+            <!-- Boutons de navigation -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+
+        <div class="services_proposes">
+            <div class="services">
+                <img src="./images_page/jardin-2.jpg" alt="Jardin moderne avec terrasse aménagée" class="service-image">
+                <div class="service-content">
+                    <h1>Jardins</h1>
+                    <h2>Aménagements paysager</h2>
+                    <p>Design unique et personnalisé de vos espaces verts. Conception sur mesure avec des plantes
+                        locales,
+                        installation clé en main et respect de l'environnement. Nos solutions s'adaptent à votre style
+                        de vie
+                        tout en favorisant la biodiversité.</p>
+                    <a href="#creation" class="decouvrir-btn">Découvrir</a>
+                </div>
+            </div>
+
+            <div class="services">
+                <img src="./images_page/economie_eau-2.jpg" alt="Gestion écologique de l'eau" class="service-image">
+                <div class="service-content">
+                    <h1>Gestion de l'eau</h1>
+                    <h2>Solutions écologiques</h2>
+                    <p>Systèmes intelligents d'irrigation et récupération des eaux de pluie. Optimisation de la
+                        consommation
+                        d'eau grâce à des technologies innovantes et respectueuses de l'environnement. Installation et
+                        maintenance
+                        d'arrosage automatique.</p>
+                    <a href="#entretien" class="decouvrir-btn">Découvrir</a>
+                </div>
+            </div>
+
+            <div class="services">
+                <img src="./images_page/harmonie_naturelle-2.jpg" alt="Aménagements naturels" class="service-image">
+                <div class="service-content">
+                    <h1>Aménagements naturels</h1>
+                    <h2>Harmonie avec la nature</h2>
+                    <p>Solutions paysagères respectueuses de l'écosystème. Création de haies naturelles, préservation de
+                        la
+                        biodiversité et utilisation exclusive de matériaux écologiques. Votre jardin devient un
+                        véritable havre
+                        de paix pour la faune et la flore.</p>
+                    <a href="#conseil" class="decouvrir-btn">Découvrir</a>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>NOUS TROUVER</h3>
+                <p>Maison Verte</p>
+                <p>12 Avenue des Jardins</p>
+                <p>69007 Lyon</p>
+                <a href="#" class="itineraire-btn">Itinéraire</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>NOUS CONTACTER</h3>
+                <p>contact@maisonverte.com</p>
+                <p>04 72 00 00 00</p>
+                <p>06 00 00 00 00</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>HORAIRES</h3>
+                <p>lundi, mardi, mercredi, jeudi, vendredi</p>
+                <p>Horaires : 9h - 18h</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>NOUS SUIVRE</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
 
 
+            </div>
+        </div>
+        </div>
+    </footer>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuBtn = document.querySelector('.menu-btn');
+            const nav = document.querySelector('nav');
+            const menuParents = document.querySelectorAll('.menu-parent');
 
+            menuBtn.addEventListener('click', () => {
+                nav.classList.toggle('active');
+            });
 
+            menuParents.forEach(parent => {
+                const link = parent.querySelector('.nav-link');
+                link.addEventListener('click', (e) => {
+                    if (window.innerWidth <= 768) {
+                        e.preventDefault();
+                        parent.classList.toggle('active');
+                    }
+                });
+            });
 
+            nav.addEventListener('click', (e) => {
+                if (e.target === nav) {
+                    nav.classList.remove('active');
+                }
+            });
 
+            document.querySelectorAll('.submenu a').forEach(link => {
+                link.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                });
+            });
+        });
 
+        let slideIndex = 0;
+        showSlides();
 
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 10000);
+        }
 
-
-
-
-
-
-
-
-
-
-
-
+        function plusSlides(n) {
+            slideIndex += n - 1;
+            showSlides();
+        }
+    </script>
 </body>
+
+</html>

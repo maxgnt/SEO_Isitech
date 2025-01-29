@@ -1,166 +1,91 @@
 # SEO_Isitech
 
-## Référencement Web : Introduction
+## Introduction au référencement web
 
-### Quelques chiffres clés :
-- **360 millions** de noms de domaines créés en 2024.
-- **WordPress** (outil de blogs et CMS) : 
+### Quelques chiffres clés
+- 360 millions de noms de domaines créés en 2024.
+- **WordPress** :
   - 10 millions d'articles postés par jour sur des CMS.
-  - 65% des parts de marché des CMS.
-- **Google** : 
+  - 65 % des parts de marché des CMS.
+- **Google** :
   - 9 milliards de recherches par jour.
-  - Entre 60 et 70% du trafic provient des appareils mobiles.
-  - 25% des recherches incluent des éléments de géolocalisation.
+  - 60 à 70 % du trafic provient des appareils mobiles.
+  - 25 % des recherches incluent des éléments de géolocalisation.
 
 ---
 
-## Jour 1 : Concepts de base
+## Concepts de base du référencement
 
 ### Moteurs de recherche
-- **Google** est le moteur le plus utilisé.
-- **Algorithmes** : mécanismes automatiques intégrés pour trier et classer les pages.
+- Google est le moteur le plus utilisé.
+- Les algorithmes trient et classent automatiquement les pages web.
 
-### Types de référencement :
-1. **SEO** (Search Engine Optimization) :
-   - Référencement gratuit ou à moindre coût.
-   - Basé sur l'optimisation du site pour être ergonomique, accessible et de confiance.
-2. **SEA** (Search Engine Advertising) :
-   - Référencement payant (campagnes de publicité).
-   - Utilise des mots-clés génériques ou à forte concurrence.
+### Types de référencement
+1. **SEO (Search Engine Optimization)** :
+   - Référencement naturel basé sur l'optimisation du site.
+2. **SEA (Search Engine Advertising)** :
+   - Référencement payant via des campagnes publicitaires.
 
----
-
-## Définitions essentielles
-
-- **Référencement** : Les pages web sont référencées dans les bases de données des moteurs de recherche.
-- **Positionnement** : Rang dans les résultats naturels (hors SEA).
-- **SEO** : Techniques visant à optimiser le positionnement des pages web (contenu, indexation, etc.).
-- **AEO** (Answer Engine Optimization) : Optimisation pour la "position zéro" (réponses directes dans les résultats).
-- **SMO** (Social Media Optimization) : Techniques pour optimiser la présence sur les réseaux sociaux.
-- **SEM** (Search Engine Marketing) : Regroupe SEO, SEA et SMO.
-- **SERP** (Search Engine Results Page) : Page de résultats des moteurs de recherche, contenant :
-  - Liens organiques (SEO).
-  - Liens sponsorisés (SEA).
-- **Backlink** : Lien provenant d’un autre site web pointant vers le vôtre.
-- **Netlinking** : Stratégie pour acquérir des backlinks de qualité.
+### Définitions essentielles
+- **Référencement** : Indexation des pages web dans les moteurs de recherche.
+- **Positionnement** : Rang d'une page dans les résultats naturels.
+- **SEO** : Optimisation technique et de contenu d'un site web.
+- **AEO (Answer Engine Optimization)** : Optimisation pour la "position zéro".
+- **SMO (Social Media Optimization)** : Optimisation sur les réseaux sociaux.
+- **SEM (Search Engine Marketing)** : Englobe SEO, SEA et SMO.
+- **SERP (Search Engine Results Page)** : Page de résultats de recherche.
+- **Backlink** : Lien externe pointant vers un site web.
+- **Netlinking** : Stratégie d'acquisition de backlinks de qualité.
 
 ---
 
-## Partie 2 : Attirer des internautes inconnus
+## Attirer du trafic avec le SEO
 
-### Recherche d'informations avec Google
+### Recherche d'informations sur Google
 - **Syntaxe de recherche** :
-  - Par défaut, Google utilise un "ET" logique entre les mots.
-  - **Guillemets** : Recherche exacte (ex. : `"Donald Trump"`).
-  - **Tiret** : Exclut un terme (ex. : `-Apple`).
-  - **Filtres avancés** : (ex. : `filetype:pdf` ou `site:www.apple.com`).
-- **Balises importantes pour le référencement** :
-  - **Title** : Titre de la page.
-  - **Meta Description** : Texte sous le lien.
-  - **URL** : Adresse web optimisée.
+  - Recherche exacte avec `"mot-clé"`.
+  - Exclusion d'un terme avec `-mot-clé`.
+  - Filtres avancés comme `filetype:pdf` ou `site:exemple.com`.
 
----
+### Balises HTML essentielles
+- **Title** : Définit le titre de la page.
+- **Meta Description** : Résumé du contenu affiché dans les SERP.
+- **URL** : Doit être optimisée pour le référencement.
 
-## Moteur de réponse et SGE
+### Fonctionnement des moteurs de recherche
+- **Robots et crawlers** :
+  - Explorent et indexent les pages web.
+  - Mises à jour fréquentes des algorithmes.
 
-- **Moteurs de réponse** : Fournissent directement des résultats (ex. : réserver un vol + hôtel).
-- **SGE** (Search Generating Experience) : Impact de l'IA sur les moteurs de recherche. L'IA accélère les processus de recherche.
-
----
-
-## Partie 3 : Fonctionnement des outils de recherche
-
-### Mots-clés
-- Les mots ou expressions utilisés par les internautes pour rechercher des informations.
-
-### Robots et Crawlers
-- **Robots (spiders, crawlers)** :
-  - Explorent le web en continu.
-  - Collectent des données pour les bases de moteurs de recherche.
-  - Les algorithmes de Google sont mis à jour 1 000 à 1 500 fois par an.
-
----
-
-## Position zéro et résultats enrichis
-
-- **Position zéro** : Premier résultat non sponsorisé.
-- **Knowledge Graph** : Informations tirées de bases comme Wikipédia.
-- **OneBox** : Résultats universels directement affichés (images, devises, etc.).
+### Position zéro et résultats enrichis
+- **Position zéro** : Extrait affiché en tête des résultats.
+- **Knowledge Graph** : Informations issues de sources comme Wikipédia.
+- **OneBox** : Résultats universels intégrant images, actualités, etc.
 
 ---
 
 ## Stratégies SEO
-- Réduire les temps de chargement des pages.
-- Optimiser la qualité du contenu et du code.
-- Obtenir des backlinks pertinents et de qualité.
 
-## Moteur de recherche et annuaire 
-- **Annuaire** : c'est un gros ouvrage classé par ordre alaphétique
-- **Moteur de recherche** : Mise à jour tous les jours par millions 
+- Réduction du temps de chargement des pages.
+- Optimisation du contenu et du code.
+- Acquisition de backlinks pertinents.
 
-## Les autres outils de recherche :
-Exemple : les pages jaunes : être visé par un public local 
+### Différents types de sites web
+- **Site vitrine** : Présentation d'une entreprise ou d'un service.
+- **Site e-commerce** : Vente en ligne de produits.
+- **WebApp** : Application accessible via un navigateur.
+- **Site institutionnel** : Communication d'une entreprise ou organisation.
 
-Bing fournit des services à d'autres marchés 
+### Importance des mots-clés
+- **Recherche** : Brainstorming, générateurs de mots-clés, bases de données.
+- **Analyse** : Volume de recherche et faisabilité.
+- **Arbitrage** : Choix en fonction de la concurrence et du potentiel.
 
-## Comportement des internautes
-cf strategie 
+---
 
-## SGE 
-Les IA ont besoin des données personnelles, certaines fonctionnalités ne sont pas disponibles en Europe (Apple Intelligence)
-Google SGE est en production, mais pas en Europe (USA, Inde et Japon) 
-==> Forte baisse de l'utilisation naturelle des moteurs de recherche. 
+## Optimisation On-Page
 
-## Partie 5 : Environnement du site web 
-
-Savoir quel public on va viser 
-Les objectifs du site Web :
-- Pourquoi ?
-=> les mots clefs du SEO
-- Comment ?
-=> Le/les contenu(s) du site web 
-- Contre qui ? => Les concurrents 
-
-- Indit technique : etudier la structure du site (code source qui affiche le site web); sécurité...
-- Audit sémantique : sens des mots, pertinence ; en SEO => compréhension par les internautes (pain au chocolat ≠ chocolatine)
-- Audit de netlinking : cohérence entre les liens 
-
-## Concurrence : 
-Regarder dans les moteurs de recherche => se faire une liste 
-Tableau concurentiel 
-
-## Type de site web (typologie) :
-- Site vitrine : mettre en avant les produits => créer des contacts 
-- Site e-commerce : vendre des produits => créer des produits 
-- Webap : logiciel que l'on utilise sur le net 
-- Site institutionnel : vitrine web d'une entreprise ou d'une organisation 
-
-Un site web est un outil de communication 
-
-## Partie 6 : mots-clés
-Ils constituent la source du référencement. C'est ce qui va être récuperer dans l'index de Google. 
-
-Trouver => Braimstorming, Générateur de mots clés, BDD
-=>
-Tester => moteurs et annuaires, volumes de requêtes 
-=>
-Arbitrer => entre intérêt et faisabilité (expliquer comment on a fait ces choix)
-
-## Chapitre 8 : Critères in page
-
-Balise title et balises meta 
-
-Composition d'une page Web : 
-Il y a trois endroits dans lesquels nous allons placer nos mots clés pour optimiser le référencement de la page web 
-
-1. En-tête de la page (HEAD) : cette partie est invisible pour l'utilisateur, mais elle est lue par les moteurs de recherche et par le navigateur. Elle contient des informations sur la page, comme le titre, la description, les mots clefs ect. 
-2. Dans le corps de la page (BODY): c'est la partie visible de la page, c'est là que vous allez placer votre contenu. 
-3. Dans les adresses (URL) : les mots-clés dans l'URL sont très importants pour le référencement. 
-
-# Structure de base d'une page HTML
-
-
-Voici un exemple de code HTML :
+### Structure HTML d'une page web
 
 ```html
 <!DOCTYPE html>
@@ -168,149 +93,81 @@ Voici un exemple de code HTML :
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Web de Base</title>
+    <title>Page Web Optimisée</title>
 </head>
 <body>
-    <!-- Contenu principal de la page -->
+    <h1>Bienvenue</h1>
 </body>
 </html>
 ```
 
+### Balises essentielles
+- **Balise Title** : Doit être concise et contenir les mots-clés principaux.
+- **Balise Meta Description** : Résumé optimisé pour inciter au clic.
+- **Balise Meta Robots** : Indique aux moteurs de recherche comment indexer la page.
 
-## La balise Title 
- Le contenu de la balise tittle s'affiche dans les SERPs et sur l'onglet de la page concernée. Le titre doit à la fois contenir des mots clés et informer l'utilisateur sur le contenu de la page. 
+### Importance du contenu
+- Le texte doit être structuré avec des titres (`h1` à `h6`).
+- Utilisation des balises `strong`, `em` pour mettre en avant des termes clés.
+- Privilégier des expressions plutôt que des mots-clés isolés.
+- Éviter le spam de mots-clés pour ne pas être pénalisé.
 
- Conseils de redaction : 
- - clarté et precision 
- - limitez vous à une dizaine de mots en réalité c'est moins
- - Trouvez une expression qui inclut le plus de mots clés possible 
- - personnaliser le titre de chaque page 
- - essayez de placer les mots clés en debut de phrase (pour la balise titre le nombre de caractères reconnus peut varier d'un moteur de recherche à un autre)
- - Evitez les mots clés redondants, ou trop generiques 
+### Optimisation des médias
+- **Images** :
+  - Nom de fichier optimisé avec des tirets.
+  - Utilisation de l’attribut `alt`.
+  - Formats recommandés : PNG, JPEG, GIF.
+- **Vidéos** :
+  - Hébergement sur YouTube pour un meilleur référencement.
+  - Nom de fichier et titre optimisés.
+- **Fichiers audio** :
+  - Inclusion de mots-clés dans les descriptions.
 
- ## La balise meta 
-  La balise meta est une balise HTLM qui permet de définir des métadonnées qui ne sont pas affichés à l'écran. Il y a encore trop peu de pages qui ne contiennent pas de balises meta. L'evolution recente des moteurs de recherche a rendu ces balises moins importantes pour le referencement, mais elles restent utiles pour d'autres raisons. 
-Faites les figurer sur toutes vos pages et adaptez les en focntion du contenu de chaque page. 
+---
 
-### La balise meta description 
-La balise meta description est un résumé de la page qui s'affiche dans les SERPs. Elle doit être claire, concise et informative. Elle doit contenir des mots clés et inciter l'utilisateur à cliquer sur le lien du site. 
+## Optimisation Off-Page
 
-## La balise robots 
-Elle indique aux robots des moteurs de recherche, comment ils doivent se comporter avec la page : l'indexer ou non, suivre des liens ou non etc. 
+### Facteurs externes
+- **Backlinks** : Acquisition de liens entrants de qualité.
+- **Popularité** : Nombre de liens pointant vers un site.
+- **Netlinking** : Stratégie de maillage externe.
+- **Google Analytics** : Analyse du trafic et des performances.
 
-```html 
-<meta name="robots" content="noindex, nofollow">
-```
-Vous pouvez spécifier d'autres instructions: 
-- nosnipet : empeche l'affichage d'un extrait de la page dans les SERPs
-- noarchive : empeche l'archivage de la page 
-- unvailable_after: indique la date à partir de laquelle la page ne doit plus etre indexée. 
+### Confiance et sécurité
+- **Certificat SSL (HTTPS)** : Sécurise les échanges de données.
+- **Indice de confiance** : Basé sur l'ancienneté, le trafic et la qualité des informations.
+- **Inscription dans des annuaires de qualité**.
 
-Le monde du référencement évolue souvent, l'usage des balises meta reste important, mais un impact moins important dans les calculs des algo de recherche.
-Le contenu quant à lui reste primordial.
-Web sémantique : la structure et le bon usage du code HTML et la bonne formulation du contenu qui va avoir un impact sur le positionnement. => futur dans les résultats de recherche. 
-Ajouter du contenu et alimenter en contenu permet de favoriser un bon positionnement.
+### Nom de domaine et URL
+- Intégrer des mots-clés pertinents dans l’URL.
+- **.fr** mieux référencé en France.
+- **Trust Rank** : Influence de l'ancienneté du domaine sur le positionnement.
 
-Le contenu dans le body du code html a aussi son importance (videos, texte, jeux...)
+---
 
-Indice de densité : fréquence avec laquelle on retrouve un mot clé dans le contenu d'un site. Il faut pas trop répéter un mot clé => spam d'exi
-Blacklisté / sandboxé : être pénalisé, les robots Google voit que l'on "triche". Il ne faut pas spammer les mots clés. 
-Il est très difficile d'optimisé une page avec plus de 3 mots clés. Un seul mot clé peut suffir par page. On ne lit jamais un site en entier, on récupère l'information que l'on veut. L'expérience doit être positive.
-On peut décliner le mot clé dans toute sa forme grammaticale. 
-Privilégier des expressions plutôt que les mots clés.
-La façon dont on va composer les adresses des liens.
-La précision sur les liens est un élément essentiel et important. 
-Toutes les pages doivent être connectées entre elles => cartographié les pages.
+## Sitemap et Indexation
 
-Fil d'Ariane : hierarchie de toutes les pages. Les liens doivent être cliquable. 
-Exemple : Accueil > Produits > Produits de beauté > Soins du visage > Crème hydratante
+### Plan du site
+- Fichier `sitemap.xml` pour faciliter l’indexation par Google.
+- Informations inclues :
+  - Liste des pages à indexer.
+  - Date de dernière mise à jour.
+  - Priorisation des pages.
+- Soumission via Google Search Console.
 
-Champ lexical : tous les mots en rapport avec le thème du site
+### Fichier robots.txt
+- Indique aux moteurs de recherche les pages à indexer ou non.
 
-## Contenu 
-Les titres et sous-titres : balise h. De h1 à h6
-==> Niveau hiérachique des informations. Leur ordre est essentiel. 
-Les balises strong, italique ect sont aussi importantes car elles mettent en avant les termes importants qui doivent ressortir et mis en avant. 
+---
 
-## Redcation de contenus 
-L'utilisation de l'IA est recommandée pour s'inspirer et trouver des mots clés/paragraphes. =< revision de contenus, ortographe...
-Le contenu web doit être original, pertinent, utile et unique. 
+## Bonnes pratiques et veille SEO
 
-## Images 
-Média incontournable des sites web. Le nom des fichiers (inclut dans l'url) est indexé. Il faut utiliser des tirets.
-Format : png, gif et jpeg. 
-Légender les images, "alt"
-Qualité des images : poids, taille, résolution.  
-Eviter les images stock que l'on retrouve de partout. 
-Tailles : Petit (150x150), moyen (à partir de 500x500), grand. 
+- Tester régulièrement le code et les liens avant la mise en production.
+- Vérifier la conformité HTML avec le W3C.
+- Suivre l’évolution des algorithmes des moteurs de recherche.
+- Produire du contenu régulièrement pour améliorer le positionnement.
+- Analyser les performances avec Google Analytics et Search Console.
 
-## Vidéos 
-Youtube : recherche de vidéos, 2ème moteur de recherche le plus utilisé. 
-Google a la capcité de lire dans les vidéos. 
-Une url par vidéo, eviter le flash, l'AJAX. 
-Bonne qualité vidéo 
-Nom de la vidéo : mots clés, tirets, mots clés en début de titre.
-Déposer les vidéos chez youtube si l'on veut bien être référencé.
+---
 
-## Son 
-Le son doit inclure les mots clés.
 
-==> Toutes ces règles servent aux robots de moteur de recherche à comprendre le contenu de la page.
-
-Etre référencé dans l'onglet "News, Actualités" : il faut simplement une page d'actualité ou de news. Beaucoup de trafic et un contenu régulier et récent. 
-Google propose un outil pour les actualités.
-
-## Les documents
-Ils peuvent être optimisés aussi ; il ne faut pas alourdir le document. 
-PDF : facile à la compression sans perdre de qualité. 
-Ne jamais indexé le contenu du site créé par les internautes (commentaires, forum, avis...)
-
-## Critères Off Page 
-Tout ce qui gravite autour du site web.
-Indice de popularité : nombre de liens qui pointent vers le site.
-Netlinking : 
-Combien de liens pointent vers le site ? 
-
-Google Analytics : analyser le trafic du site web. But : générer du trafic et le convertir en client.
-Lien externe : backlink => inciter le visiteur à cliquer sur le lien. Il doit être mit en valeur. 
-
-Placemet de liens : plus ils sont placés haut, mieux c'est. 
-Linkfarms : lieu ou les liens sont placés. 
-
-On a des sites web qui vendent des liens. 
-
-## Indice de confiance 
-Il joue un rôle sur le référencement. 
-Cirtères : taille du site, ancienneté, le trafic du site et le niveau de verascité des informations inscrites dans les pages 
-S'inscrire dans les annuaires, texte des liens (externe et interne)
-
-## Domaine, URL et plus 
-Le nom de domaine est important. Un ou plusieurs mots clés dans le nom de domaine.
-.fr mieux positionné en France 
-Trust rank : indice de confiance en fonction de l'ancienneté. 
-
-Certificat SSL : ça garantit la sécurité du site web et confidentialité et l'intégrité des données entre un serveur et un navigateur.
-Il garantit la confidentialité et l'intégrité des données échangées entre le serveur et le navigateur, en les chiffrant.
-Ils tiennent compte de la sécurité des sites web. Pas de https = pénalité.
-
-Confidentialité : caractère secret des données
-Chiffrer : indescriptible par l'être humain 
-Intégrité : garantir que le message n'a pas été modifié pendant le transfert 
-Nom de fichier : mots clés, tirets, mots clés en début de titre. 
-URL : Uniform Ressource Locator.
-
-Sitemap : structure du site web, en format xml. Il permet de donner des informations sur les pages du site web. Il est important pour les robots de moteur de recherche.
-La manière la plus sure d'indiquer à Google le plan du site (la liste des pages du site)
-Il contient la liste des pages à indexer, les dates de dernière modification, la fréquence de mise à jour, l'importance des pages par rapport aux autres pages du site. Facilite l'indexation du site. 
-
-Comment le créer et l'envoyer à Google ?
-Il faut aller sur la Google Search Console 
-
-Déchifrer HTML, vidéos, formes sur les images, contenu du son... => Prédire le contenu du code 
-Ne pas mettre les balises script dans le head, car le code est lu de haut en bas. Les balises meta et title doivent être en haut pour être lues en première. 
-
-Tester le code et les liens avant de mettre en prod 
-W3C : vérifier la conformité du code HTML.
-
-## robots.txt
-Fichier texte qui indique aux robots des moteurs de recherche les pages à ne pas indexer. Il faut le mettre à la racine du site web. Il indique quelle page à lire, quelle page à ne pas lire. S'il est absent, tous les liens seront indexés. 
