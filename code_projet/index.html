@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Maison Verte - Paysagiste écologique à Lyon. Créations de jardins durables, entretien écologique et conseil en aménagement paysager. Certifié Bio.">
+        content="Maison Verte - Paysagiste écologique à Lyon. Conception et entretien de jardins durables. Obtenez un devis gratuit pour votre projet.">
+    <meta name="keywords"
+        content="paysagiste Lyon, jardin écologique, aménagement paysager, écologie, entretien jardin, gestion de l'eau">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Maison Verte - Paysagiste Ecologique à Lyon - Jardins durables sur mesure et Biodiversité</title>
+    <title>Maison Verte - Paysagiste Ecologique à Lyon - Aménagement et entretien de jardins</title>
 </head>
+
 
 <body>
     <header>
@@ -18,7 +21,6 @@
             <button class="menu-btn">Menu</button>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="#" class="nav-link">Accueil</a></li>
                     <li class="menu-parent">
                         <a href="#" class="nav-link">Services</a>
                         <ul class="submenu">
@@ -29,7 +31,7 @@
                     </li>
                     <li><a href="#realisations" class="nav-link">Réalisations</a></li>
                     <li><a href="#blog" class="nav-link">Blog</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="./index_contact.html" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -37,21 +39,48 @@
 
     <main>
 
-        <section class="hero-slider">
-            <div class="slide fade">
-                <img src="./images_page/home_paysagiste.jpg" alt="Jardinier en action">
-                <div class="slide-text">Maison Verte, votre expert paysagiste en aménagement durable et écologique
+        <div class="hero-carousel">
+            <div class="slide active">
+                <img src="./images_page/jardin_maison_verte.jpg" alt="Jardin écologique conçu par Maison Verte à Lyon"
+                    class="slide-image">
+                <div class="slide-content">
+                    <h1 class="slide-title">Maison Verte</h1>
+                    <p class="slide-description">Votre expert en paysagisme écologique à Lyon. Nous créons des jardins
+                        durables et harmonieux qui respectent l'environnement.</p>
+                    <a href="#services" class="slide-button">Découvrir nos services</a>
                 </div>
             </div>
-            <div class="slide fade">
-                <img src="./images_page/maison_home_paysagiste.jpg" alt="Vue aérienne d'un jardin paysager">
-                <div class="slide-text-2">Un aménagement paysager durable pour un futur plus vert</div>
+
+            <div class="slide">
+                <img src="./images_page/solutions_ecologique.jpg" alt="Gestion de l'eau par nos services "
+                    class="slide-image">
+                <div class="slide-content">
+                    <h1 class="slide-title">Solutions Écologiques</h1>
+                    <p class="slide-description">Spécialistes de la gestion de l'eau et de l'aménagement durable.
+                        Certifiés bio, nous privilégions les essences locales.</p>
+                    <a href="./index_contact.html" class="slide-button">Nous contacter</a>
+                </div>
             </div>
 
-            <!-- Boutons de navigation -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </section>
+            <div class="slide">
+                <img src="./images_page/équipe_maison_verte.jpg" alt="Équipe Maison Verte" class="slide-image">
+                <div class="slide-content">
+                    <h1 class="slide-title">Une Équipe Passionnée</h1>
+                    <p class="slide-description">Plus de 13 ans d'expertise en création et entretien de jardins. Déjà
+                        plus de 1500 projets réalisés sur Lyon et sa région.</p>
+                    <a href="#about" class="slide-button">En savoir plus</a>
+                </div>
+            </div>
+
+            <button class="carousel-arrow carousel-prev">&lt;</button>
+            <button class="carousel-arrow carousel-next">&gt;</button>
+
+            <div class="carousel-controls">
+                <div class="carousel-dot active"></div>
+                <div class="carousel-dot"></div>
+                <div class="carousel-dot"></div>
+            </div>
+        </div>
 
         <div class="services_proposes">
             <div class="services">
@@ -103,7 +132,7 @@
             <div class="footer-section">
                 <h3>NOUS TROUVER</h3>
                 <p>Maison Verte</p>
-                <p>12 Avenue des Jardins</p>
+                <p>26 Avenue Tony Garnier</p>
                 <p>69007 Lyon</p>
                 <a href="#" class="itineraire-btn">Itinéraire</a>
             </div>
@@ -117,17 +146,17 @@
 
             <div class="footer-section">
                 <h3>HORAIRES</h3>
-                <p>lundi, mardi, mercredi, jeudi, vendredi</p>
+                <p>Lundi, Mardi, Mercredi, Jeudi, Vendredi</p>
                 <p>Horaires : 9h - 18h</p>
             </div>
 
             <div class="footer-section">
                 <h3>NOUS SUIVRE</h3>
                 <div class="social-icons">
-                    <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                    <a href="https://www.facebook-maison-verte.com" target="_blank" class="social-icon">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
-                    <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                    <a href="https://www.instagram-maison-verte.com" target="_blank" class="social-icon">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
                 </div>
@@ -140,6 +169,7 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+
             const menuBtn = document.querySelector('.menu-btn');
             const nav = document.querySelector('nav');
             const menuParents = document.querySelectorAll('.menu-parent');
@@ -169,26 +199,41 @@
                     nav.classList.remove('active');
                 });
             });
-        });
 
-        let slideIndex = 0;
-        showSlides();
 
-        function showSlides() {
-            let slides = document.getElementsByClassName("slide");
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+            const carousel = {
+                slides: document.querySelectorAll('.slide'),
+                dots: document.querySelectorAll('.carousel-dot'),
+                prev: document.querySelector('.carousel-prev'),
+                next: document.querySelector('.carousel-next'),
+                current: 0
+            };
+
+            function showSlide(index) {
+
+                carousel.current = index;
+                if (carousel.current >= carousel.slides.length) carousel.current = 0;
+                if (carousel.current < 0) carousel.current = carousel.slides.length - 1;
+
+
+                carousel.slides.forEach(slide => slide.classList.remove('active'));
+                carousel.dots.forEach(dot => dot.classList.remove('active'));
+
+                carousel.slides[carousel.current].classList.add('active');
+                carousel.dots[carousel.current].classList.add('active');
             }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 10000);
-        }
 
-        function plusSlides(n) {
-            slideIndex += n - 1;
-            showSlides();
-        }
+
+            carousel.prev.addEventListener('click', () => showSlide(carousel.current - 1));
+            carousel.next.addEventListener('click', () => showSlide(carousel.current + 1));
+
+
+            carousel.dots.forEach((dot, idx) => {
+                dot.addEventListener('click', () => showSlide(idx));
+            });
+
+            setInterval(() => showSlide(carousel.current + 1), 5000);
+        });
     </script>
 </body>
 

@@ -171,3 +171,38 @@
 ---
 
 
+## Référencement web et mobile (Mobile First)
+
+Les règles sont les mêmes. Les sites qui ne sont pas responsives sont pénalisés par Google. Tout site web qui se respecte doit être responsive. Le site doit rester vivant sur mobile. Il faut donc penser à l'ergonomie, à la vitesse de chargement, à la taille des images, etc. 
+Google a noté des règles pour mobiles : les pages mobiles ne doivent pas utilisés de flash. L'utilisateur ne doit jamais avoir besoin de zoomé. Tous les liens présents sur la page doivent être cliquables. Google préconise 5 mm d'espacement entre les éléments. 
+
+Nouvelle balise (container queries) : permet de définir des règles CSS en fonction de la taille du conteneur. 
+CMS : les thèmes sont à 40% du temps responsive. 
+Am$MP : frameword pour créer des pages web mobiles et site plus léger
+
+## SEO Local
+Préciser un lieu géographique pour être mieux référencé.
+Google My Business : permet de référencer son entreprise sur Google Maps.=> Fiche d'établissement. Ajout de coordonées, pour être référencé sur Google Maps.
+Le but est de généré des contacts et potentiellement des visites en magasin ainsi que du trafic sur le site. 
+L'établissement sera aussi classé en fonction des avis. 
+Une fiche établissement bien remplie permet d'être mieux référencé.
+Intégrer Google maps sur le site web.
+
+## Réseaux sociaux
+
+Réseaux sociaux personnel : ceux qui vous représentent => Facebook, Twitter, Instagram etc...
+Réseaux sociaux de partage : Instagram, Pinterest... 
+Réseaux sociaux professionnels : LinkedIn
+70% des français sur les réseaux sociaux.
+en France : chaque minute : 2 millions de snaps. 
+Facebook, instagram, snapchat : réseaux sociaux les plus utilisés dans le monde et en France. 
+Les réseaux sociaux sont un levier de trafic.
+
+## Internationalisation 
+.fr et .com : les plus utilisés en France et permet de cibler un public international.
+Le choix du nom de domaine est important.
+
+## Google Analytics 
+Google Search Console et google Analytics : 
+Analytics : analyser l'audience, éléments quantitatifs, provenance du trafic, comportement des visiteurs, taux de rebond, temps passé sur le site, pages les plus visitées, etc...
+Outils de monitoring : indispensable 

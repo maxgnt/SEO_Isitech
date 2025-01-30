@@ -1,0 +1,101 @@
+<style>
+    body {
+        height: 100vh;
+        font: 1.1em sans-serif;
+    }
+
+    .contact-form {
+        transform: scale(0.85);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+
+        div {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            width: 50%;
+            max-width: 640px;
+            margin: 10vh auto;
+            min-width: 280px;
+            margin: 15px;
+
+            h2 {
+                font: bolder 3.2em sans-serif;
+                margin-top: 0;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 1.25em;
+                width: 100%;
+
+                input,
+                select,
+                textarea {
+                    outline: none;
+                    display: block;
+                    border: 0;
+                    border-bottom: 1px solid Lightgray;
+                    padding: 0.5em 0;
+                    font: 1.25em sans-serif;
+                    background: transparent;
+
+                    &:required {
+                        border-bottom: 1px solid Black;
+                    }
+
+                    &::placeholder {
+                        color: Black;
+                    }
+                }
+
+                textarea {
+                    height: 8em;
+                    max-width: 100%;
+                    min-width: 100%;
+                    max-height: 65vh;
+                    min-height: 15vh;
+                }
+
+                input[type="submit"] {
+                    padding: 0.5em 1.35em;
+                    cursor: pointer;
+                    width: 25%;
+                    font-weight: bold;
+                    background: Black;
+                    color: White;
+                    border-radius: 5px;
+                    text-align: center;
+                    min-width: 120px;
+
+                    &:hover {
+                        color: white;
+                        background-color: black;
+                    }
+                }
+            }
+        }
+    }
+</style>
+<section class="contact-form">
+    <div>
+        <h2>Contact us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name*" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Name*'" maxlength="50" tabindex="1" required>
+            <input type="email" name="email" placeholder="E-mail*" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'E-mail*'" maxlength="50" tabindex="2" required>
+            <select name="subject" id="subject" tabindex="3" required>
+                <option value="" selected>Projects</option>
+                <option value="">Feedback</option>
+                <option value="">Say hi</option>
+            </select>
+            <textarea name="message" placeholder="Message*" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Message*'" maxlength="1560" tabindex="4" required></textarea>
+            <input type="submit" value="Send" tabindex="5">
+        </form>
+    </div>
+</section>
